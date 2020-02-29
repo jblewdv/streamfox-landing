@@ -1,0 +1,19 @@
+{
+  "name": "streamfox-landing",
+  "version": "1.0.0",
+  "description": "streamfox-landing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jblewdv/streamfox-landing.git"
+  },
+  "author": "Joshua Blew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jblewdv/streamfox-landing/issues"
+  },
+  "homepage": "https://github.com/jblewdv/streamfox-landing#readme"
+}
