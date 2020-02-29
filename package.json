@@ -1,10 +1,10 @@
 {
   "name": "streamfox-landing",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "streamfox-landing",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/jblewdv/streamfox-landing/issues"
   },
-  "homepage": "https://github.com/jblewdv/streamfox-landing#readme"
+  "homepage": "https://github.com/jblewdv/streamfox-landing#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
