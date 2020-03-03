@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'StreamFox' });
 });
 
+router.get('/getstarted', function(req, res, next) {
+  res.render('getstarted');
+});
+
 module.exports = router;
